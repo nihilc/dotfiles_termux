@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# utils
+alias zshrc-source="source ~/.config/zsh/.zshrc"
+
+# Basic
+alias rm="rm -i"
+
+alias ls="ls -F --group-directories-first"
+alias la="ls -A"
+alias lls="ls -l"
+alias lla="ls -Al"
+
+alias tree="tree -C --dirsfirst"
+alias treea="tree -C -a --dirsfirst"
